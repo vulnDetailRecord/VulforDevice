@@ -7,6 +7,8 @@ product: G3
 version: <= G3V3.0br_V15.11.0.17
 
 type: Stack Overflow
+
+Firmware download address ： https://www.tenda.com.cn/material/show/3107
 ### Vulnerability Description
 Tenda G3 G3V3.0br_V15.11.0.17 were discovered to contain a stack overflow in the formAddVpnUsers function.
 ### Vulnerability details
